@@ -1,6 +1,5 @@
 # CkipTagger
-Also: [中文 README](https://github.com/ckiplab/ckiptagger/wiki/Chinese-README)
-
+[install ckiptagger-tf2.1](https://github.com/p208p2002/ckiptagger#install-ckiptagger-tf21)
 #### GitHub
 
 https://github.com/ckiplab/ckiptagger
@@ -52,26 +51,15 @@ ASBC 4.0 Test Split (50,000 sentences)
 | CKIPWS (classic) | 95.85% | 95.96% | 95.91% | 90.62% |
 | Jieba-zh_TW      | 90.51% | 89.10% | 89.80% | -- |
 
-## Installation
-
-tl;dr.
-```
-pip install -U ckiptagger[tf,gdown]
-```
-
-CkipTagger is a Python library hosted on PyPI. Requirements:
+## Install CkipTagger-tf2.1
+### ENV / Package Requirements
 - python>=3.6
-- tensorflow>=1.13.1,<2 / tensorflow-gpu>=1.13.1,<2 (one of them)
+- tensorflow>=2.1.0
 - gdown (optional, for downloading model files from google drive)
 
-(Minimum installation) If you have set up tensorflow, and would like to download model files by yourself.
-```
-pip install -U ckiptagger
-```
-
-(Complete installation) If you have just set up a clean virtual environment, and want everything, including GPU support.
-```
-pip install -U ckiptagger[tfgpu,gdown]
+### Install from REPO
+```bash
+$ pip install -U git+https://github.com/p208p2002/ckiptagger@ckiptagger-tf2.1
 ```
 
 ## Usage
