@@ -1,5 +1,6 @@
 # CkipTagger
 [install ckiptagger-tf2.1](https://github.com/p208p2002/ckiptagger#install-ckiptagger-tf21)
+
 #### GitHub
 
 https://github.com/ckiplab/ckiptagger
@@ -63,6 +64,7 @@ $ pip install -U git+https://github.com/p208p2002/ckiptagger@ckiptagger-tf2.1
 ```
 
 ## Usage
+原版的ckiptagger用起來不是非常的直覺，推薦安裝[p208p2002/ckip_tagger_interface](https://github.com/p208p2002/ckip_tagger_interface)
 
 Complete demo script: demo.py. The following sections assume:
 ```python
