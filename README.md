@@ -64,8 +64,10 @@ $ pip install -U git+https://github.com/p208p2002/ckiptagger@ckiptagger-tf2.1
 ```
 
 ## Usage
-原版的ckiptagger用起來不是非常的直覺，推薦安裝[p208p2002/ckip_tagger_interface](https://github.com/p208p2002/ckip_tagger_interface)
+### use ckiptagger with ckip_tagger_interface
+原版的ckiptagger用起來不是非常直覺，推薦搭配[p208p2002/ckip_tagger_interface](https://github.com/p208p2002/ckip_tagger_interface)使用
 
+### directly use ckiptagger
 Complete demo script: demo.py. The following sections assume:
 ```python
 from ckiptagger import data_utils, construct_dictionary, WS, POS, NER
