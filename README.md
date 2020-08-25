@@ -64,7 +64,7 @@ $ pip install -U git+https://github.com/p208p2002/ckiptagger@ckiptagger-tf2.1
 ```
 
 ## Usage
-### use ckiptagger with ckip_tagger_interface
+### use ckiptagger with ckiptagger_interface
 推薦搭配[p208p2002/ckiptagger_interface](https://github.com/p208p2002/ckiptagger_interface)使用
 
 ### directly use ckiptagger
