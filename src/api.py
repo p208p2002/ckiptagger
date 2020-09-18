@@ -62,7 +62,10 @@ class WS:
         return
         
     def __del__(self):
-        self.model.sess.close()
+        try:
+            self.model.sess.close()
+        except Exception as e:
+            print(e)
         return
         
     def __call__(
@@ -182,7 +185,10 @@ class POS:
         return
         
     def __del__(self):
-        self.model.sess.close()
+        try:
+            self.model.sess.close()
+        except Exception as e:
+            print(e)
         return
         
     def __call__(
@@ -284,7 +290,10 @@ class NER:
         return
         
     def __del__(self):
-        self.model.sess.close()
+        try:
+            self.model.sess.close()
+        except Exception as e:
+            print(e)
         return
         
     def __call__(
