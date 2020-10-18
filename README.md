@@ -1,3 +1,8 @@
+# Archived
+ckip team has already update ckiptagger for compatible with tf2
+
+[ckiplab/ckiptagger](https://github.com/ckiplab/ckiptagger)
+
 # CkipTagger
 [install ckiptagger-tf2.1](https://github.com/p208p2002/ckiptagger#install-ckiptagger-tf21)
 
